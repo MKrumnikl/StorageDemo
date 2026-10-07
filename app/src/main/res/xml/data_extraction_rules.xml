@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+: cloud backup and device transfer are configured separately. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="file" path="backup-demo.txt" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="file" path="backup-demo.txt" />
+    </device-transfer>
+</data-extraction-rules>
